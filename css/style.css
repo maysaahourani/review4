@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+th ,td{
+    border: 2px solid slategrey;
+    font-family: 'Fjalla One', sans-serif;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+body {
+    background-image: url('../bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header {
+    background-color: springgreen;
+    height: 50px;
+    margin: 10px;
+    margin-bottom: 40px;
+    font-family: 'Fjalla One', sans-serif;
+
+
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: teal;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+body { 
+    width: 90%;
+margin: auto;
+}
+
+main {
+    display: inline-block;
+
+}
+
+form {
+    margin-left: 30px;
+    padding: 20px;
+    border: springgreen;
+}
+fieldset {
+    width: 400px;
+
+    float: left;
+margin-left: 20px;
+background-color: thistle;
+margin-right: 20px;
+border: tomato solid 2px;
+display: inline-block;
+background-color: saddlebrown;
+}
+
+table { 
+    width: calc (100% /2);
+    float: left;
+    display:inline-block;
+    margin: auto;
+    background-color: seagreen;
+    
+
+}
+
+td { 
+    border: teal solid 2px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#table-list {
+    float: left;
+
+}
