@@ -3,6 +3,8 @@ const headerArr = ['itemName','category','quantity','price'] ;
 let formElement = document.getElementById('wishlist-form');
 let ourParentTable = document.getElementById('wishlist-table');
 let Totals=document.getElementById('total');
+Item.allItem = [];
+
 renderheader ();
 
 function Item (itemName, itemCat, quantity) {
@@ -12,7 +14,6 @@ function Item (itemName, itemCat, quantity) {
   this.price = 0;
   Item.allItem.push(this);
 }
-Item.allItem = [];
 Item.prototype.pricefun = function (min,max){
   this.price = generateRandomNumber (min,max)*this.quantity;
 
